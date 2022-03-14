@@ -1,0 +1,74 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid2\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid3\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid102\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid103\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Hello!\
+\
+Welcome to my final project about generating strained crystal structures and their energies relative to a native unit cell observed in nature. \
+\
+Most of the contents of this README are also present within the Jupyter Notebook itself (see file directory below), but this README may be clearer in come parts, while the Jupyter notebook may be clearer in others. It may be helpful to look through the Jupyter notebook and then come back to this README, as what I am describing will become clearer once you see it.\
+\
+The directory structure on GitHub is slightly different from the one you will be using if you attempt to replicate my work. I added a few more directories to make the structure on GitHub easier to navigate.\
+\
+The GitHub structure is:\
+\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}Final_Project (main directory for project files)\
+\pard\tx940\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1\cf0 {\listtext	\uc0\u8259 	}Po (contains all the files for analyzing our polonium crystal unit cells, as well as )\
+\pard\tx1660\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li2160\fi-2160\pardirnatural\partightenfactor0
+\ls1\ilvl2\cf0 {\listtext	\uc0\u8259 	}Angles_Test (just a test to confirm that energy calculations for the same edge length on a unit cell but are symmetric about the first quadrant, like 95 degrees and 85 degrees, are the same in energy)\
+{\listtext	\uc0\u8259 	}inputs (input unit cells for Quantum ESPRESSO)\
+{\listtext	\uc0\u8259 	}outputs (energy outputs)\
+{\listtext	\uc0\u8259 	}Strained_Crystal_Structure_Generator.ipynb (Jupyter notebook for this project; everything of interest is here)\
+\pard\tx940\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1\cf0 {\listtext	\uc0\u8259 	}pseudo (pseudopotentials for our atoms; used in crystal structure energy calculations. If you want to calculate the energy of a new atom here, you should find a pseudo potential from {\field{\*\fldinst{HYPERLINK "http://pseudopotentials.quantum-espresso.org/legacy_tables"}}{\fldrslt http://pseudopotentials.quantum-espresso.org/legacy_tables}} and put it in this directory.)\
+{\listtext	\uc0\u8259 	}tmp (contains temporary files that QE generates; not really used)\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+The structure of your directory if you were to want to repeat my work should be:\
+\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
+\ls2\ilvl0\cf0 {\listtext	\uc0\u8226 	}Final_Project (main directory for project files)\
+\pard\tx940\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls2\ilvl1\cf0 {\listtext	\uc0\u8259 	}Po (contains all the files for analyzing our polonium crystal unit cells, as well as )\
+\pard\tx1660\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li2160\fi-2160\pardirnatural\partightenfactor0
+\ls2\ilvl2\cf0 {\listtext	\uc0\u8259 	}Angles_Test (just a test to confirm that energy calculations for the same edge length on a unit cell but are symmetric about the first quadrant, like 95 degrees and 85 degrees, are the same in energy)\
+{\listtext	\uc0\u8259 	}Strained_Crystal_Structure_Generator.ipynb (Jupyter notebook for this project; everything of interest is here)\
+{\listtext	\uc0\u8259 	}[Also keep all of your input and output files here in this directory; it makes it easier to use bash commands]\
+\pard\tx940\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls2\ilvl1\cf0 {\listtext	\uc0\u8259 	}pseudo (pseudopotentials for our atoms; used in crystal structure energy calculations. If you want to calculate the energy of a new atom here, you should find a pseudo potential from {\field{\*\fldinst{HYPERLINK "http://pseudopotentials.quantum-espresso.org/legacy_tables"}}{\fldrslt http://pseudopotentials.quantum-espresso.org/legacy_tables}} and put it in this directory.)\
+{\listtext	\uc0\u8259 	}tmp (contains temporary files that QE generates; not really used)\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+The important difference here is that you store your inputs and outputs directly in Po.\
+\
+The packages I used for this are Seaborn, pandas, numpy, and Quantum ESPRESSO. You can install these all pretty easily. However, Jupyter notebooks and QE seem to be incompatible with each other, so I recommend creating a new environment for QE and then installing it with the command: \
+\
+conda install -c conda-forge qe\
+\
+To work with QE and calculate the energy of a unit cell, you have to use shell commands from the terminal. Make sure the conda environment containing QE is open. To do that, use cd to navigate to the location where your input files are located, and use this command (without the brackets):\
+\
+pw.x -in [your_input_filename].in > [your_input_filename].out\
+\
+After this, QE will take the unit cell given in the input file and calculate the energy. Sometimes, this can take up to hours depending on the edge length and angle. If it does get hung up for too long, then it\'92s probable that you forgot the -in after pw.x (learned from painful experience). Once it is finished, open up the .out file and check the \'93total energy\'94 near the bottom to get the energy of your crystal structure.\
+\
+\pard\pardeftab720\sa280\partightenfactor0
+\cf0 If you're confused or want to know more, you can always refer the PWscf tutorial from the QE website itself: http://www.fisica.uniud.it/~giannozz/QE-Tutorial/\
+Also, this link includes what each parameter in these input files is but doesn\'92t really provide a conceptual explanation. I\'92m including it so that you can modify or add other parameters not explained if necessary: https://www.quantum-espresso.org/Doc/INPUT_PW.html\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Essentially, what I did for this project was to calculate the energy of a real life unit cell of an atomic crystal (in this case polonium) and compare it to the energies of multiple strained versions of that unit cell. The idea was to see if the native unit cell dimensions would present an energy basin that the other strained structures would converge to as they became more similar to native unit cell.\
+\
+To do this, I started with the unit cell of polonium, which is a simple cubic. Then, I strained it into a rhombohedral unit cell, which has all edge lengths equal and two sets of three equal angles between vertices (look up a picture if confused; just think of a simple cubic that is bent out of shape). To accomplish this, I wrote a few functions to generate a bunch of strained rhombohedral unit cells at varying edge lengths and angles relative to the original within my notebook. (It will also generate the original unit cell as long as you pass it the correct parameters.) \
+\
+Note that when I calculated the energies of these strained crystals, I only calculated one angle below 90 degrees, and I mirrored the energies for those above 90 degrees (e.g., if the angle was 85 degrees, I would\'92ve put the same energy for 95 degrees). This is because of symmetry. An equilateral rhombus/parallelogram with one angle that is going 85 degrees in one direction is just the flipped version of an equilateral rhombus/parallelogram that is going 95 degrees in another direction. I confirmed this by calculating the energy of a unit cell that has an angle of 95 degrees and comparing it with one of the same edge length (6.3117 au) but with an angle of 85 degrees. The energies (in the negative hundreds of Ry) were very similar, only having differences at the sixth decimal place, which shows that symmetry allows these energies to be the same. These results can be observed in the directory \'93Angles_Test\'94 within \'93Po.\'94 Just compare the two output files present.\
+\
+Afterwards, I generated a calculated all of their total energies as described above, using my QE environment. Opening my Jupyter notebook in another environment, I enumerated these total energies, along with the angles and edge lengths of these unit cells, within a pandas data frame by hand, which I used to generate a heat map with Seaborn. After some parameter adjustments, I was able to obtain a clearer Heatmap that showed the energy basin centered around where the native unit cell was, with the energies of the surrounding crystal structures funneling towards it.\
+\
+This is how evolutionary (and other crystal structure prediction) algorithms work in general. As you find lower and lower energy structures, your structures should match the actual crystal structure more and more; you funnel down this free energy surface towards the native unit cell like a protein folding to its native structure in a protein folding funnel.}
