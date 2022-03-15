@@ -14,7 +14,7 @@ The GitHub structure is:
 	        ⁃	inputs (input unit cells for Quantum ESPRESSO)
 	        ⁃	outputs (energy outputs)
 	        ⁃	Strained_Crystal_Structure_Generator.ipynb (Jupyter notebook for this project; everything of interest is here)
-		⁃	class_calcs (calculations I did for the structures I showed in my class presentation)
+		⁃	class_pres_calcs (calculations I did for the structures I showed in my class presentation)
 	    ⁃	pseudo (pseudopotentials for our atoms; used in crystal structure energy calculations. If you want to calculate the energy of a new atom here, you should find a pseudo potential from http://pseudopotentials.quantum-espresso.org/legacy_tables and put it in this directory.)
 	    ⁃	tmp (contains temporary files that QE generates; not really used)
 
