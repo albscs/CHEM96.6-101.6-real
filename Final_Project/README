@@ -10,7 +10,7 @@ The GitHub structure is:
 
 	•Final_Project (main directory for project files)
 	    ⁃	Po (contains all the files for analyzing our polonium crystal unit cells)
-	        ⁃	Angles_Test (just a test to confirm that energy calculations for the same edge length on a unit cell but are symmetric about the first quadrant, like 95 degrees and 85 degrees, are the same in energy)
+	        ⁃	Angles_Test (just a test to confirm that energy calculations for the same edge length on a unit cell with angles mirrored about the first quadrant, like 95 degrees and 85 degrees, result in the same energy)
 	        ⁃	inputs (input unit cells for Quantum ESPRESSO)
 	        ⁃	outputs (energy outputs)
 	        ⁃	Strained_Crystal_Structure_Generator.ipynb (Jupyter notebook for this project; everything of interest is here)
